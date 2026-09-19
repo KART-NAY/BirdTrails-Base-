@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const conectarDB = require("./config/database");
 const usuarioRoutes = require("./routes/usuarioRoutes");
-const favoritoRoutes = require("./routes/favoritoRoutes");
+const favoritoRoutes = require("./routes/favoritoRoutes");  
 
 const app = express();
 
