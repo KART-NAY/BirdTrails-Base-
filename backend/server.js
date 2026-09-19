@@ -2,6 +2,8 @@ const express = require("express");
 const cors = require("cors");
 
 const conectarDB = require("./config/database");
+const usuarioRoutes = require("./routes/usuarioRoutes");
+const favoritoRoutes = require("./routes/favoritoRoutes");
 
 const app = express();
 
@@ -12,8 +14,7 @@ app.use(express.json());
 conectarDB();
 
 // Rutas
-const usuarioRoutes = require("./routes/usuarioRoutes");
-const favoritoRoutes = require("./routes/favoritoRoutes");
+
 
 app.use("/api/usuarios", usuarioRoutes);
 app.use("/api/favoritos", favoritoRoutes);
