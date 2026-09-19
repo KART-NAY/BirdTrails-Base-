@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aves - Rutas de Avistamiento</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <h1>Rutas de Avistamiento de Aves</h1>
+
+        <!-- MENÚ -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="aves.html">Aves</a>
+                </li>
+
+                <li>
+                    <a href="rutas.html">Rutas</a>
+                </li>
+
+                <li>
+                    <a href="recomendaciones.html">Recomendaciones</a>
+                </li>
+
+                <li>
+                    <a href="favoritos.html">Favoritos</a>
+                </li>
+
+                <li class="sesion-menu">
+                <a href="login.html">
+                <span class="icono-usuario">👤</span>
+                <span class="texto-sesion">Iniciar sesión</span> </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <section>
+
+            <h2>Especies de aves</h2>
+
+            <p>
+                Conoce algunas de las especies de aves que pueden
+                encontrarse en las diferentes rutas de avistamiento.
+            </p>
+
+
+            <!-- CONTENEDOR DE TODAS LAS AVES -->
+            <div class="contenedor-aves">
+
+
+                <!-- AVE 1 -->
+                <div class="ave">
+
+                    <img src="imagenes/pava_de_monte.png"
+                        alt="Pava de monte">
+
+                    <h3>Nombre común:</h3>
+                    <p>Pava de monte</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Chamaepetes goudotii</p>
+
+                    <h3>Autor:</h3>
+                    <p>Lesson, 1828</p>
+
+                    <h3>Familia:</h3>
+                    <p>Cracidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>800 - 3300 m.s.n.m</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>64 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Pava chillona</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Frutas, flores, hojas e invertebrados.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Emite un sonido característico al volar.
+                        Suele verse en parejas o grupos pequeños
+                        en el dosel del bosque.
+                    </p>
+                    
+
+                    <button class="boton-favorito" data-ave="Pava chillona" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 2 -->
+                <div class="ave">
+
+                    <img src="imagenes/pava_ guacharacha.jpg"
+                        alt="Pava guacharacha">
+
+                    <h3>Nombre común:</h3>
+                    <p>Pava guacharacha</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Penelope montagnii</p>
+
+                    <h3>Autor:</h3>
+                    <p>Bonaparte, 1856</p>
+
+                    <h3>Familia:</h3>
+                    <p>Cracidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>2000 - 3700 m.s.n.m</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>50 - 60 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Pava guacharacha</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Materia vegetal, especialmente frutos silvestres
+                        que se encuentran en los estratos altos del bosque.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Emite un sonido característico al volar.
+                        Suele verse en parejas o grupos pequeños
+                        en el dosel del bosque.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Pava guacharacha" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 3 -->
+                <div class="ave">
+
+                    <img src="imagenes/Perdiz_comun.jpg"
+                         alt="Perdiz común">
+
+                    <h3>Nombre común:</h3>
+                    <p>Perdiz común</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Colinus cristatus</p>
+
+                    <h3>Autor:</h3>
+                    <p>Linnaeus, 1766</p>
+
+                    <h3>Familia:</h3>
+                    <p>Odontophoridae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>2600 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>21 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Áreas abiertas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Perdiz común</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Su dieta es omnívora. Se alimenta de material
+                        vegetal, hojas, semillas, insectos e invertebrados.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        La totalidad de su tiempo está sobre el suelo.
+                        Sus vuelos son muy cortos debido a su morfología.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Perdiz común" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 4 -->
+                <div class="ave">
+
+                    <img src="imagenes/Paloma_comun.jpg"
+                         alt="Paloma común">
+
+                    <h3>Nombre común:</h3>
+                    <p>Paloma común</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Columba livia</p>
+
+                    <h3>Autor:</h3>
+                    <p>Gmelin, 1789</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>3500 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>36 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Paloma doméstica</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Granos, semillas y restos de comida.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Especie gregaria proveniente del Viejo Mundo.
+                        Se adaptó al medio urbano y rural.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Paloma doméstica" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 5 -->
+                <div class="ave">
+
+                    <img src="imagenes/paloma_de_collar.jpg"
+                         alt="Paloma de collar">
+
+                    <h3>Nombre común:</h3>
+                    <p>Paloma de collar</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Patagioenas fasciata</p>
+
+                    <h3>Autor:</h3>
+                    <p>Say, 1823</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>600 - 3500 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>35 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Paloma de collar</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Frutos, semillas, bellotas y brotes.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Paloma de gran tamaño, esquiva, de vuelos fuertes,
+                        sonoros y sorpresivos.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Paloma de collar" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 6 -->
+                <div class="ave">
+
+                    <img src="imagenes/paloma_colorada.jpg"
+                         alt="Paloma colorada">
+
+                    <h3>Nombre común:</h3>
+                    <p>Paloma colorada</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Patagioenas cayennensis</p>
+
+                    <h3>Autor:</h3>
+                    <p>Bonnaterre, 1792</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>2000 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>34 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Paloma colorada</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Su dieta se compone de frutos pequeños y semillas.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Especie de gran tamaño, esquiva, de vuelos fuertes,
+                        sonoros y sorpresivos.
+                    </p>
+
+                    <button class="boton-favorito" data-ave="Paloma colorada" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 7 -->
+                <div class="ave">
+
+                    <img src="imagenes/caminera_rabiblanca.jpg"
+                         alt="Caminera rabiblanca">
+
+                    <h3>Nombre común:</h3>
+                    <p>Caminera rabiblanca</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Leptotila verreauxi</p>
+
+                    <h3>Autor:</h3>
+                    <p>Bonaparte, 1855</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>2800 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>28 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Áreas abiertas con vegetación</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Caminera rabiblanca</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Semillas, algunos insectos e invertebrados.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Es común verla solitaria y en pareja. Merodea
+                        en el suelo y, cuando se siente acechada,
+                        toma vuelo rápido hacia las ramas cercanas.
+                    </p>
+
+                    <button class="boton-favorito" data-ave="Caminera rabiblanca" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 8 -->
+                <div class="ave">
+
+                    <img src="imagenes/caminera_cabeciazul.jpg"
+                         alt="Caminera cabeciazul">
+
+                    <h3>Nombre común:</h3>
+                    <p>Caminera cabeciazul</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Leptotila plumbeiceps</p>
+
+                    <h3>Autor:</h3>
+                    <p>Sclater & Salvin, 1868</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>600 - 2200 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>27 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>No</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Zonas boscosas</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Caminera cabeciazul</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Semillas y algunos insectos e invertebrados.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Se encuentra solitaria, en pareja o en pequeños
+                        grupos merodeando sobre el suelo.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Caminera cabeciazul" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 9 -->
+                <div class="ave">
+
+                    <img src="imagenes/Torcaza_naguiblanca.jpg"
+                         alt="Torcaza naguiblanca">
+
+                    <h3>Nombre común:</h3>
+                    <p>Torcaza naguiblanca</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Zenaida auriculata</p>
+
+                    <h3>Autor:</h3>
+                    <p>Des Murs, 1847</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>3500 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>26 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>Sí</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Áreas abiertas con vegetación</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Torcaza naguiblanca</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Su dieta se compone de semillas que atrapa
+                        en el suelo.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Es frecuente encontrarla en lugares abiertos
+                        y en el entorno urbano.
+                    </p>
+
+
+                    <button class="boton-favorito" data-ave="Torcaza naguiblanca" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+
+                <!-- AVE 10 -->
+                <div class="ave">
+
+                    <img src="imagenes/Tortolita_diminuta.jpg"
+                         alt="Tortolita diminuta">
+
+                    <h3>Nombre común:</h3>
+                    <p>Tortolita diminuta</p>
+
+                    <h3>Nombre científico:</h3>
+                    <p>Columbina minuta</p>
+
+                    <h3>Autor:</h3>
+                    <p>Linnaeus, 1766</p>
+
+                    <h3>Familia:</h3>
+                    <p>Columbidae</p>
+
+                    <h3>Rango altitudinal:</h3>
+                    <p>1200 m.s.n.m.</p>
+
+                    <h3>Tamaño:</h3>
+                    <p>15 cm</p>
+
+                    <h3>Dismorfismo sexual:</h3>
+                    <p>Sí</p>
+
+                    <h3>Hábitat:</h3>
+                    <p>Áreas abiertas con vegetación</p>
+
+                    <h3>Tipo de presencia:</h3>
+                    <p>Residente</p>
+
+                    <h3>Nombre local:</h3>
+                    <p>Tortolita diminuta</p>
+
+                    <h3>Alimentación:</h3>
+                    <p>
+                        Su dieta se basa en semillas,
+                        principalmente de gramíneas.
+                    </p>
+
+                    <h3>Datos adicionales:</h3>
+                    <p>
+                        Es el grupo más pequeño de la familia Columbidae.
+                        Se encuentra solitaria o en pareja.
+                    </p>
+
+                    <button class="boton-favorito" data-ave="Tortolina duminuta" title="Agregar a favoritos">
+                    <span>♡</span>
+                    <span>Favorito</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>
+            © 2026 Rutas de Avistamiento de Aves
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="sesion.js"></script>
+    
+
+</body>
+
+</html>
