@@ -11,6 +11,13 @@ app.use(express.json());
 // Conectar a MongoDB
 conectarDB();
 
+// Rutas
+const usuarioRoutes = require("./routes/usuarioRoutes");
+const favoritoRoutes = require("./routes/favoritoRoutes");
+
+app.use("/api/usuarios", usuarioRoutes);
+app.use("/api/favoritos", favoritoRoutes);
+
 // Ruta de prueba
 app.get("/", (req, res) => {
     res.json({
